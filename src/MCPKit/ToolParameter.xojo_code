@@ -185,28 +185,12 @@ Protected Class ToolParameter
 			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="Type"
-			Visible=false
-			Group="Behavior"
-			InitialValue=""
-			Type="MCP.ToolParameterTypes"
-			EditorType="Enum"
-			#tag EnumValues
-				"0 - Array_"
-				"1 - Boolean_"
-				"2 - Integer_"
-				"3 - Number_"
-				"4 - Object_"
-				"5 - String_"
-			#tag EndEnumValues
-		#tag EndViewProperty
-		#tag ViewProperty
 			Name="Description"
 			Visible=false
 			Group="Behavior"
 			InitialValue=""
 			Type="String"
-			EditorType=""
+			EditorType="MultiLineEditor"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="HasDefault"

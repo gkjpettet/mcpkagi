@@ -72,14 +72,6 @@ Protected Class ToolArgument
 			Type="String"
 			EditorType=""
 		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Type"
-			Visible=false
-			Group="Behavior"
-			InitialValue=""
-			Type="MCP.ToolParameterTypes"
-			EditorType=""
-		#tag EndViewProperty
 	#tag EndViewBehavior
 End Class
 #tag EndClass

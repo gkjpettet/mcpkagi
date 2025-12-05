@@ -98,6 +98,19 @@ Protected Module MCPKit
 	#tag EndNote
 
 
+	#tag Property, Flags = &h1
+		Protected VERSION_BUG As Integer = 0
+	#tag EndProperty
+
+	#tag Property, Flags = &h1
+		Protected VERSION_MAJOR As Integer = 1
+	#tag EndProperty
+
+	#tag Property, Flags = &h1
+		Protected VERSION_MINOR As Integer = 0
+	#tag EndProperty
+
+
 	#tag Enum, Name = ErrorTypes, Type = Integer, Flags = &h1
 		InternalError = -32603
 		  InvalidParameters = -32602
