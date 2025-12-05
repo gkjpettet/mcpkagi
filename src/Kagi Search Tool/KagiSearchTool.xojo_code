@@ -4,8 +4,8 @@ Inherits MCPKit.Tool
 	#tag Method, Flags = &h0
 		Sub Constructor(apiKey As String)
 		  // Pass the superclass this tool's name and description.
-		  Super.Constructor("search", _
-		  "Searches the web using the specified search engine and returns text content from the most" + _
+		  Super.Constructor("Kagi Search", _
+		  "Searches the web using the Kagi search engine and returns snippets from the most" + _
 		  " relevant web pages.")
 		  
 		  Self.APIKey = apiKey
