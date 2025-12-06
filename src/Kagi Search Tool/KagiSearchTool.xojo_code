@@ -4,7 +4,7 @@ Inherits MCPKit.Tool
 	#tag Method, Flags = &h0
 		Sub Constructor(apiKey As String)
 		  // Pass the superclass this tool's name and description.
-		  Super.Constructor("Kagi Search", _
+		  Super.Constructor("KagiSearch", _
 		  "Searches the web using the Kagi search engine and returns snippets from the most" + _
 		  " relevant web pages.")
 		  
